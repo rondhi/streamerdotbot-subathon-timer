@@ -157,7 +157,7 @@ Most of the configuration options for the timer will be done in the Global Varia
 | `subathonSendAllPlatforms`                  | When sending messages, send to all platforms, or just the triggering platform (from a command)                                                                                                                                                                    | `True`                          |
 | `subathonSendAsBot`                         | Set to true if you want to use your bot account to send messages. False, otherwise                                                                                                                                                                                | `True`                          |
 
-<img src="./assets/subathonConfigAndStart.png" width=75% height=75%>
+<img src="./assets/globalVariableWindow.png" width=75% height=75%>
 
 ### Add Time configuration for monetary triggers
 
