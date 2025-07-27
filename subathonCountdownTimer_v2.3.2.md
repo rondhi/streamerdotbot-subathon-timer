@@ -48,9 +48,10 @@ These are the various ways you can add time:
 + NEW Added option to action 'Subathon Event Time Added' to append ~goalPercent~ to the chat message
 + NEW Added option to action 'Subathon Event Time Added' to not send a message after the limit has been reached
 + UPDATE All Send Message in C# code and sub-actions to use the new ~subathonName~
-+ UPDATE Subathon Cancel confirmation say the command that was used to trigger it
++ UPDATE Subathon Start confirmation message to say the command that was used to trigger it
++ UPDATE Subathon Cancel confirmation message to say the command that was used to trigger it
 + UPDATE Update OBS Text Sources to Initial time when timer is cancelled
-+ Updated names for Action Groups, Action Queues, and Command Groups
++ UPDATE Update names for Action Groups, Action Queues, and Command Groups
 
 2.3.1
 + NEW Added the ability to display time units as separate text sources in OBS
@@ -182,8 +183,6 @@ Most of the configuration options for the timer will be done in the Global Varia
 | `subathonSendAllPlatforms`                  | When sending messages, send to all platforms, or just the triggering platform (from a command)                                                                                                                                                                    | `True`                          |                                                                                                                                                                       |
 | `subathonSendAsBot`                         | Set to true if you want to use your bot account to send messages. False, otherwise                                                                                                                                                                                | `True`                          |                                                                                                                                                                       |
 
-<img src="./assets/globalVariableWindow.png" width=75% height=75%>
-
 ### Add Time configuration for monetary triggers
 
 The Action Group `Subathon Countdown Timer Add Time` will have actions you can configure for adding time to the timer for each individual trigger.
@@ -198,7 +197,7 @@ Configure the following Set Argument sub-actions in the action 'Subathon Add Tim
 - timeToAddTier2
 - timeToAddTier3
 
-<img src="./assets/2.3.0/twitchSubAddTime-2.3.0.png" width=50% height=50%>
+   <img src="./assets/2.3.0/twitchSubAddTime-2.3.0.png" width=50% height=50%>
 
 ### Add Time configuration for YouTube Membership triggers
 
